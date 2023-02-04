@@ -52,7 +52,7 @@ public class BiPartition {
      * @param dislikes
      * @return
      */
-    public boolean possibleBipartition(int n, int[][] dislikes) {
+    public boolean possibleBiPartition(int n, int[][] dislikes) {
         Map<Integer, List<Integer>> adjacencyList = new HashMap<>();
 
         for (int i = 0; i < dislikes.length; i++) {

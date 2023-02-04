@@ -20,7 +20,7 @@ class BiPartitionTest {
         int n = 4;
         int[][] dislikes = {{1, 2}, {1, 3}, {2,4}};
 
-        Assertions.assertTrue(biPartition.possibleBipartition(n, dislikes));
+        Assertions.assertTrue(biPartition.possibleBiPartition(n, dislikes));
     }
 
     @Test
@@ -28,6 +28,6 @@ class BiPartitionTest {
         int n = 3;
         int[][] dislikes = {{1, 2}, {1, 3}, {2, 3}};
 
-        Assertions.assertFalse(biPartition.possibleBipartition(n, dislikes));
+        Assertions.assertFalse(biPartition.possibleBiPartition(n, dislikes));
     }
 }
