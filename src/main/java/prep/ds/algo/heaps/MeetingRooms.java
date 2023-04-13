@@ -4,6 +4,12 @@ import java.util.*;
 
 public class MeetingRooms {
 
+    /**
+     * Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference
+     * rooms required.src/main/java/prep/ds/algo/heaps/MeetingRooms.java 
+     * @param intervals
+     * @return
+     */
     public int minMeetingRooms(int[][] intervals) {
         if (intervals == null || intervals.length == 0) {
             return -1;
